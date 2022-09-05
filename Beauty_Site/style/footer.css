@@ -1,0 +1,128 @@
+.footer_backmenu {
+    padding: 61px 0;
+}
+
+.footer_nav {
+    display: inline-block;
+}
+
+.footer_nav:not(:last-child) {
+    margin-right: 26px;
+}
+
+.footer_link{
+    font-family: "Roboto_Medium";
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_line {
+    width: 255px;
+    border: 1px solid #EFEFEF;
+    margin-top: 30px;
+}
+
+.footer_menu {
+    padding-top: 25px;
+}
+
+.footer_sublink {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer_sublink:hover {
+    background-color: #F13C6E;
+    color: #FFFFFF;
+}
+
+.messengers {
+    padding: 32px 0 44px 0;
+}
+
+.messenger_menu {
+    display: inline-block;
+}
+.messengers_item {
+    display: inline-block;
+}
+
+.messengers_item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.messenger_link{
+    display: inline-block;
+    width: 45px;
+    height: 46.05px;
+    border: 2px solid #F13C6E;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 38px;
+}
+
+.messenger_info {
+    float: right;
+}
+
+.messenger_phone {
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.messenger_btn {
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.messenger_btn_link {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.messenger_btn:hover {
+    background: #F13C6E;
+}
+
+.confidential {
+    padding: 25px 0;
+    background: #EFEFEF;
+}
+
+.confidential_text {
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.confidential_link {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    float: right;
+    text-decoration: none;
+}

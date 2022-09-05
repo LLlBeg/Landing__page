@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto_Medium";
+    src: url('../fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto_Bold";
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav{
+    background: #E5E5E5;
+    padding: 17px 0 16px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu_item{
+    display: inline-block;
+}
+
+nav li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.menu_link{
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.subheader {
+    padding: 20px 0;
+}
+
+.subheader_logo {
+    font-family: "Roboto_Bold";
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.subheader_info {
+    float: right;
+    margin-top: 25px;
+}
+
+.subheader_phone {
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.subheader_btn {
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.subheader_btn_link {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.subheader_btn:hover {
+    background: #F13C6E;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.strip {
+    border: 1px solid #EFEFEF;
+}
+
+.subheader_nav {
+    padding: 30px 0;
+    min-height: 79px;
+}
+
+.subheader_menu {
+    text-align: center;
+}
+
+.subheader_item {
+    display: inline-block;
+}
+
+.subheader_link {
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.subheader_nav li:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+

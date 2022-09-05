@@ -1,0 +1,189 @@
+.promo {
+    min-height: 604px;
+    background-image: url("../img/Rectangle\ 2.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    font-family: "Roboto_Bold";
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding-top: 193px;
+}
+
+.promo_text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 308px;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.promo_btn {
+    width: 170px;
+    height: 40px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.promo_link {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sale {
+    padding: 80px 0 100px 0;
+    background: #EFEFEF;
+}
+
+h2 {
+    font-family: "Roboto_Bold";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.sale_container {
+    display: inline-block;
+    margin-top: 38px;
+    width: 255px;
+    height: 363px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.sale_container:not(:last-child) {
+    margin-right: 26px;
+}
+
+.sale_card {
+    padding-top: 15px;
+}
+
+.sale_text {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    padding-top: 25px;
+}
+
+.sale_price {
+    font-family: "Roboto_Medium";
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.sale_btn {
+    background: #F13C6E;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sale_link {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.gift {
+    background: #EFEFEF;
+}
+
+.gift_letter {
+    display: inline-block;
+    width: 540px;
+    height: 212px;
+    background: #F13C6E;
+    background-image: url("../img/letter.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    padding: 35px 0 35px 40px;
+    margin-right: 26px;
+}
+
+.gift_delivery {
+    display: inline-block;
+    width: 540px;
+    height: 212px;
+    background: #F13C6E;
+    background-image: url("../img/Car.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    padding: 35px 0 35px 40px;
+}
+
+.gift h3 {
+    font-family: "Roboto_Bold";
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.gift p {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.gift_input {
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    padding-left: 25px;
+    margin-top: 25px;
+    border: none;
+}
+
+.gift_btn {
+    width: 170px;
+    height: 35px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+.gift_link {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.look {
+    padding: 113px 0 103px 0;
+    background: #EFEFEF;
+}
